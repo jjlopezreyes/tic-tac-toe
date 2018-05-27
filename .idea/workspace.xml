@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3df2af7f-ec85-448b-a797-454aaad179b3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersUseCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersUseCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateUser/CreateUserUseCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateUser/CreateUserUseCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/DeleteUser/DeleteUserUseCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/DeleteUser/DeleteUserUseCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/UserMakesMoveOnGame/UserMakesMoveOnGameUseCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/UserMakesMoveOnGame/UserMakesMoveOnGameUseCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Domain/Entity/Repository/EntityRepositoryInMemoryImpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Entity/Repository/EntityRepositoryInMemoryImpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Domain/Game/Entity/Repository/GameRepositoryInMemoryImpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Game/Entity/Repository/GameRepositoryInMemoryImpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Domain/User/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Domain/User/Entity/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Domain/User/Repository/UserRepositoryInMemoryImpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/User/Entity/Repository/UserRepositoryInMemoryImpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CheckGameWinnerCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CheckGameWinnerCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CreateGameBetweenTwoUsersCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CreateGameBetweenTwoUsersCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CreateUserCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CreateUserCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/DeleteUserCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/DeleteUserCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/UserMakesMoveOnGameCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/UserMakesMoveOnGameCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CheckGameWinner/CheckGameWinnerUseCaseTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CheckGameWinner/CheckGameWinnerUseCaseTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersUseCaseTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersUseCaseTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CreateUser/CreateUserUseCaseTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CreateUser/CreateUserUseCaseTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/DeleteUser/DeleteUserUseCaseTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/DeleteUser/DeleteUserUseCaseTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/UserMakesMoveOnGame/UserMakesMoveOnGameUseCaseTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/UserMakesMoveOnGame/UserMakesMoveOnGameUseCaseTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Game/Entity/GameTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Game/Entity/GameTest.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GameTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Game/Entity/GameTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="1564" column="22" selection-start-line="1564" selection-start-column="22" selection-end-line="1564" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prophet.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/phpspec/prophecy/src/Prophecy/Prophet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMakesMoveOnGameCommand.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/UserMakesMoveOnGameCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckGameWinnerUseCaseTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CheckGameWinner/CheckGameWinnerUseCaseTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5095">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DomainAssertion</find>
+      <find>assert</find>
+      <find>fug</find>
+      <find>itShouldMakeMove</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/TicTacToe/Domain</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Game/Entity/Repository/GameRepository.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Game/Entity/Repository/GameRepositoryInMemoryImpl.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Game/MoveMade/Entity/Repository/MoveMadeRepository.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Game/MoveMade/Entity/Repository/MoveMadeRepositoryInMemoryImpl.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Entity/ValueObject/Identity.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/User/Repository/UserRepositoryInMemoryImpl.php" />
+        <option value="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CreateUser/CreateUserTest.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Entity/Repository/BaseEntityRepository.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Entity/Repository/EntityRepository.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersRequest.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersResponse.php" />
+        <option value="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersUseCase.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Entity/BaseEntity.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/UserMakesMoveOnGame/UserMakesMoveOnGameRequest.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Game/MoveMade/Entity/MoveMade.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CheckGameWinner/CheckGameWinnerResponse.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CheckGameWinner/CheckGameWinnerUseCase.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CheckGameWinner/CheckGameWinnerRequest.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/WinCondition/GridGameStateWinCondition/ValueObject/ContinuousFullLengthLineWinCondition.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Game/Entity/Game.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Entity/Exception/EntityNotFoundDomainException.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/Entity/Repository/EntityRepositoryInMemoryImpl.php" />
+        <option value="$PROJECT_DIR$/bin/console.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Game/GameState/GridGameState/ValueObject/GridGameStateTest.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Entity/Repository/EntityRepositoryInMemoryImpl.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Game/Entity/Repository/GameRepositoryInMemoryImpl.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Domain/User/Entity/Repository/UserRepository.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Infrastructure/User/Entity/Repository/UserRepositoryInMemoryImpl.php" />
+        <option value="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CheckGameWinner/CheckGameWinnerUseCaseTest.php" />
+        <option value="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersUseCaseTest.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersUseCase.php" />
+        <option value="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CreateUser/CreateUserUseCaseTest.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateUser/CreateUserUseCase.php" />
+        <option value="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/DeleteUser/DeleteUserUseCaseTest.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/DeleteUser/DeleteUserUseCase.php" />
+        <option value="$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/UserMakesMoveOnGame/UserMakesMoveOnGameUseCaseTest.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Application/UseCase/UserMakesMoveOnGame/UserMakesMoveOnGameUseCase.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CheckGameWinnerCommand.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CreateGameBetweenTwoUsersCommand.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CreateUserCommand.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/DeleteUserCommand.php" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/UserMakesMoveOnGameCommand.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/User/UserMock.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/User/UserMockBuilder.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/User/Entity/UserMockBuilder.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Game/GameState/ValueObject/GameStateMockBuilder.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/WinCondition/ValueObject/WinConditionMockFactory.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Move/ValueObject/MoveParametersMockBuilder.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Move/ValueObject/MoveMockBuilder.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Game/Entity/GameTest.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/beberlei/assert" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1347" />
+    <option name="y" value="27" />
+    <option name="width" value="1853" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Move" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Move" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValueObject" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WinCondition" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WinCondition" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValueObject" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Game" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Game" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Game" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GameState" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Game" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GameState" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GridGameState" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Game" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GameState" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GridGameState" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValueObject" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Move" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TicTacToe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WinCondition" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Game/Entity/Repository" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/User/Entity" />
+      <recent name="$PROJECT_DIR$/src/TicTacToe/Infrastructure/User/Entity" />
+      <recent name="$PROJECT_DIR$/src/TicTacToe/Domain/User/Entity" />
+      <recent name="$PROJECT_DIR$/src/TicTacToe/Infrastructure/User/Repository" />
+      <recent name="$PROJECT_DIR$/src/TicTacToe/Infrastructure/Game/Entity/Repository" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3df2af7f-ec85-448b-a797-454aaad179b3" name="Default" comment="" />
+      <created>1527424985675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527424985675</updated>
+      <workItem from="1527424987910" duration="1472000" />
+      <workItem from="1527427244918" duration="20299000" />
+      <workItem from="1527613278364" duration="1147000" />
+      <workItem from="1527657995065" duration="2977000" />
+      <workItem from="1527664599864" duration="15000" />
+      <workItem from="1527698966705" duration="730000" />
+      <workItem from="1527758979276" duration="28000" />
+      <workItem from="1527959328054" duration="3341000" />
+      <workItem from="1528033823869" duration="25996000" />
+      <workItem from="1528089457183" duration="3107000" />
+      <workItem from="1528095974002" duration="599000" />
+      <workItem from="1528130500184" duration="3031000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62742000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="134" y="43" width="2426" height="1557" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2698888" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924837" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateUser/CreateUserRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/Entity/BaseEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/Move/ValueObject/MoveParameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/Move/GridGameStateMove/ValueObject/PlaceSingleMarkerGridGameStateMoveParameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/Game/MoveMade/Entity/MoveMade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CheckGameWinner/CheckGameWinnerResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CheckGameWinner/CheckGameWinnerUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CheckGameWinner/CheckGameWinnerRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/WinCondition/GridGameStateWinCondition/ValueObject/ContinuousFullLengthLineWinCondition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2028">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/Game/Entity/Game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1911">
+          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Application/UseCase/UserMakesMoveOnGame/UserMakesMoveOnGameRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Terminal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Command/Command.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3717">
+          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="829">
+            <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/Entity/Exception/EntityNotFoundDomainException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/Entity/Repository/EntityRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/Entity/Repository/BaseEntityRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#55#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/console.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Move/GridGameStateMove/ValueObject/PlaceSingleMarkerGridGameStateMoveTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/Move/GridGameStateMove/ValueObject/PlaceSingleMarkerGridGameStateMove.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="e#72#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/Game/GameState/GridGameState/ValueObject/GridGameState.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#78#102#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Game/GameState/GridGameState/ValueObject/GridGameStateTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Infrastructure/Entity/Repository/EntityRepositoryInMemoryImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding>
+            <element signature="e#55#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Infrastructure/Game/Entity/Repository/GameRepositoryInMemoryImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+          <folding>
+            <element signature="e#68#106#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Domain/User/Entity/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Infrastructure/User/Entity/Repository/UserRepositoryInMemoryImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersUseCaseTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <element signature="e#93#124#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateGameBetweenTwoUsers/CreateGameBetweenTwoUsersUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#76#114#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CreateUser/CreateUserUseCaseTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#77#108#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Application/UseCase/CreateUser/CreateUserUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#60#98#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/DeleteUser/DeleteUserUseCaseTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding>
+            <element signature="e#77#108#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Application/UseCase/DeleteUser/DeleteUserUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#61#120#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/UserMakesMoveOnGame/UserMakesMoveOnGameUseCaseTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+          <folding>
+            <element signature="e#86#117#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Application/UseCase/UserMakesMoveOnGame/UserMakesMoveOnGameUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CheckGameWinnerCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CreateGameBetweenTwoUsersCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/CreateUserCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/DeleteUserCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Infrastructure/Presentation/Console/UserMakesMoveOnGameCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Component/TicTacToe/Application/UseCase/CheckGameWinner/CheckGameWinnerUseCaseTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5095">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="1564" column="22" selection-start-line="1564" selection-start-column="22" selection-end-line="1564" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Move/ValueObject/MoveParametersMockBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="e#65#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/WinCondition/ValueObject/WinConditionMockBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#74#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Game/GameState/ValueObject/GameStateMockBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#76#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Move/ValueObject/MoveMockBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#66#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/Game/Entity/GameTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/TicTacToe/Domain/User/Entity/UserMockBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#54#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpspec/prophecy/src/Prophecy/Prophet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
